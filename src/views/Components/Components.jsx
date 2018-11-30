@@ -56,7 +56,6 @@ class Components extends React.Component {
 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <ProductSection />
-          <TeamSection />
         </div>
         <Footer />
       </div>
