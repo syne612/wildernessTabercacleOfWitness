@@ -66,7 +66,7 @@ class HeaderLinks extends React.Component {
         to="/gallery"
         color="transparent"
         className={classes.navLink}>
-          Gallery
+          Museum
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -78,60 +78,10 @@ class HeaderLinks extends React.Component {
           About
         </Link>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Connect with us on LinkedIn"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            href="https://www.linkedin.com/in/ellis-hogan-99a646161/"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-linkedin"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Check out our Github repo's"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://github.com/syne612?tab=repositories"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-github"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on Instagram"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/angel.icarus/"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
+
       <ListItem className={classes.listItem}>
       <Button
-        color="primary"
+        color="info"
         block
         onClick={() => this.handleClickOpen("classicModal")}
       >
@@ -164,14 +114,19 @@ class HeaderLinks extends React.Component {
             <Close className={classes.modalClose} />
           </IconButton>
           <br />
-          <Hidden only="xs"> <center><h2 className={classes.modalTitle}>Get in Contact</h2></center></Hidden>
+          <center><h2 className={classes.modalTitle}>Get in Contact</h2></center>
 
         </DialogTitle>
         <DialogContent
           id="classic-modal-slide-description"
           className={classes.modalBody}
         >
-            <WorkSection />
+        <center>We are located at 303 Bay Street, Monroe, NC 28112.
+        <hr/>
+        If you wish to visit, feel free! Just please call before your visit to insure that either I or Dianne will be available for your tour.
+        </center>
+        <center><span><i className={classes.socials + " fas fa-phone"} /><h5>704-219-0038</h5></span>
+        <span><i className={classes.socials + " fas fa-envelope"} /><h5>pdnordan@aol.com</h5></span></center>
         </DialogContent>
         <DialogActions className={classes.modalFooter}>
           <Button
@@ -183,6 +138,23 @@ class HeaderLinks extends React.Component {
           </Button>
         </DialogActions>
       </Dialog>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-tooltip"
+          title="Follow us on Facebook"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.facebook.com/angel.icarus/"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-facebook"} />
+          </Button>
+        </Tooltip>
       </ListItem>
     </List>
   );

@@ -9,7 +9,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import infoStyle from "assets/jss/material-kit-react/components/infoStyle.jsx";
 
 function InfoArea({ ...props }) {
-  const { classes, title, description, iconColor, vertical } = props;
+  const { classes, title, description, title2, description2, iconColor, vertical } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -27,6 +27,8 @@ function InfoArea({ ...props }) {
       <div className={classes.descriptionWrapper}>
         <h4 className={classes.title}>{title}</h4>
         <p className={classes.description}>{description}</p>
+        <h4 className={classes.title}>{title2}</h4>
+        <p className={classes.description}>{description2}</p>
       </div>
     </div>
   );

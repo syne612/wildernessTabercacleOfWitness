@@ -28,7 +28,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Project Icarus"
+          brand="The Wilderness Tabernacle of Witness"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -38,15 +38,16 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/bg7.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Welcome To Project Icarus</h1>
-                  <h3 className={classes.subtitle}>
-                    This new site is build compleatly in JavaScript and JS librarys (react.js, node.js).
-                  </h3>
+                  <h1 className={classes.title}>The Wilderness Tabernacle of Witness</h1>
+                  <h4 className={classes.subtitle}>
+                  This site is dedicated to the memory of  Phill Simpson and Ralph  Mount, both very dear friends, servants of the Lord, and supporters of Israel.
+
+                  </h4>
                 </div>
               </GridItem>
             </GridContainer>
@@ -56,7 +57,6 @@ class Components extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <ProductSection />
           <TeamSection />
-          <WorkSection />
         </div>
         <Footer />
       </div>

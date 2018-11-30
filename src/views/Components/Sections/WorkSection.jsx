@@ -27,14 +27,14 @@ class WorkSection extends React.Component {
               color="transparent"
               className={classes.margin5}
             ><i className={classes.socials + " fas fa-envelope"} />
-          </Button> <p className={classes.description}> EllisHogan95@gmail.com </p>
+          </Button> <p className={classes.description}> pdnordan@aol.com </p>
             <Button
               justIcon
               color="transparent"
               className={classes.margin5}
             ><i className={classes.socials + " fas fa-phone"} />
           </Button> <p className={classes.description}
-> 704-839-1628 </p></div>
+> 704-283-4208 </p></div>
             <form>
               <GridContainer>
                 <GridItem xs={12} md={6}>
@@ -70,7 +70,7 @@ class WorkSection extends React.Component {
                   <GridItem xs={12} sm={12} md={4}
                     className={classes.textCenter}
                   >
-                    <Button color="primary">Send Message</Button>
+                    <Button color="info">Send Message</Button>
                   </GridItem>
               </GridContainer>
             </form>
