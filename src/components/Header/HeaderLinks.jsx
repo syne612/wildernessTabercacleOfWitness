@@ -71,11 +71,11 @@ class HeaderLinks extends React.Component {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
-        to="/about-me"
+        to="/bible-stories"
           color="transparent"
           className={classes.navLink}
         >
-          About
+          Bible Stories
         </Link>
       </ListItem>
 

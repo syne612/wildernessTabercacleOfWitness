@@ -6,7 +6,7 @@ import LoginPage from "views/LoginPage/LoginPage.jsx";
 
 var indexRoutes = [
   { path: "/landing-page", name: "LandingPage", component: LandingPage },
-  { path: "/about-me", name: "ProfilePage", component: ProfilePage },
+  { path: "/bible-stories", name: "ProfilePage", component: ProfilePage },
   { path: "/gallery", name: "GalleryPage", component: GalleryPage },
   { path: "/login-page", name: "LoginPage", component: LoginPage },
   { path: "/", name: "Components", component: Components }
