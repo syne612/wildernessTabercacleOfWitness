@@ -43,7 +43,7 @@ class ProfilePage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Project Icarus"
+          brand="The Wilderness Tabernacle of Witness"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -56,14 +56,13 @@ class ProfilePage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
-
-              <div className={classes.description}>
-              <br />
-                <h1>
+            <br />
+                <h1 className={classes.title}>
                   Short stories
                 </h1>
-                <p>Not all stories told are told correctly. Here are some "FAQ's" and stories commonly mistold. </p>
-              </div>
+                <h5 className={classes.description}>
+                  Not all stories told are told correctly. Here are some "FAQ's" and stories commonly mistold.
+                </h5>
               <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={12} lg={10} className={classes.navWrapper}>
                   <NavPills

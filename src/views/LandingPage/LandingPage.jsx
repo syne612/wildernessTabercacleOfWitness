@@ -32,7 +32,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Material Kit React"
+          brand="The Wilderness Tabernacle of Witness"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -70,7 +70,6 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <ProductSection />
             <TeamSection />
-            <WorkSection />
           </div>
         </div>
         <Footer />

@@ -42,7 +42,7 @@ class GalleryPage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Wilderness Tabernacle of Witness"
+          brand="The Wilderness Tabernacle of Witness"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
