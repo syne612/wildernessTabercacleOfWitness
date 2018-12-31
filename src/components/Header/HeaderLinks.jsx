@@ -70,15 +70,42 @@ class HeaderLinks extends React.Component {
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link
-        to="/bible-stories"
-          color="transparent"
-          className={classes.navLink}
-        >
-          Bible Stories
-        </Link>
-      </ListItem>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Bible"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
 
+          dropdownList={[
+            <Link to="/bible-stories" className={classes.dropdownLink}>
+              Short Stories
+            </Link>,
+            <Link to="/new-testament" className={classes.dropdownLink}>
+              A Revised New Testament
+            </Link>
+
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-tooltip"
+          title="Follow us on Facebook"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.facebook.com/phil.nordan"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-facebook"} />
+          </Button>
+        </Tooltip>
+      </ListItem>
       <ListItem className={classes.listItem}>
       <Button
         color="info"
@@ -138,23 +165,6 @@ class HeaderLinks extends React.Component {
           </Button>
         </DialogActions>
       </Dialog>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on Facebook"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/angel.icarus/"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
       </ListItem>
     </List>
   );

@@ -104,8 +104,14 @@ class NavPills extends React.Component {
       </GridContainer>
     ) : (
       <div>
-        {tabButtons}
-        {tabContent}
+      <GridContainer>
+        <GridItem xs={12}>
+          {tabButtons}
+        </GridItem>
+        <GridItem xs={12}>
+          {tabContent}
+        </GridItem>
+      </GridContainer>
       </div>
     );
   }

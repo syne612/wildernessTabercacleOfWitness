@@ -76,7 +76,7 @@ class GalleryPage extends React.Component {
                 </p>
               </div>
               <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={11} lg={10} className={classes.navWrapper}>
+                <GridItem xs={12} sm={12} md={11} lg={11} className={classes.navWrapper}>
 
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>

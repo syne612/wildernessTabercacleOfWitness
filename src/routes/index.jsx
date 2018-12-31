@@ -5,7 +5,7 @@ import GalleryPage from "views/ProfilePage/GalleryPage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
 
 var indexRoutes = [
-  { path: "/landing-page", name: "LandingPage", component: LandingPage },
+  { path: "/new-testament", name: "LandingPage", component: LandingPage },
   { path: "/bible-stories", name: "ProfilePage", component: ProfilePage },
   { path: "/gallery", name: "GalleryPage", component: GalleryPage },
   { path: "/login-page", name: "LoginPage", component: LoginPage },
