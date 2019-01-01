@@ -28,7 +28,7 @@ function Footer({ ...props }) {
           &copy; {1900 + new Date().getYear()} Builds of Daedalus{" "}
           <Settings className={classes.icon} /> by{" "}
           <a
-            href="http://www.projecticarus.net/gallery"
+            href="http://www.projecticarus.net"
             className={aClasses}
             target="_blank"
           >

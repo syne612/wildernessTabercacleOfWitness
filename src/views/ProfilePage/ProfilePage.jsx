@@ -52,25 +52,43 @@ class ProfilePage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/bg4.jpg")} />
+        <Parallax filter image={require("assets/img/bg4.jpg")}>
+          <div className={classes.container}>
+            <GridContainer>
+              <GridItem xs={12} sm={12} md={9}>
+              <h1 className={classes.title}>
+                Short Stories
+              </h1>
+              <h5 className={classes.title}>
+                Not all stories told are told correctly. Here are some "FAQ's" and stories commonly mistold.
+              </h5>
+                {/*<br />
+                <Button
+                  color="danger"
+                  size="lg"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-play" />Watch video
+                </Button>*/}
+              </GridItem>
+            </GridContainer>
+          </div>
+        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
             <br />
-                <h1 className={classes.title}>
-                  Short stories
-                </h1>
-                <h5 className={classes.description}>
-                  Not all stories told are told correctly. Here are some "FAQ's" and stories commonly mistold.
-                </h5>
+            <br />
               <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={12} lg={12} className={classes.navWrapper}>
                   <NavPills
                     alignCenter
                     color="info"
                     horizontal={{
-                      tabsGrid: { xs: 4, md: 4 },
-                      contentGrid: { xs: 8, md: 8 }
+                      tabsGrid: { xs: 12, sm: 4 },
+                      contentGrid: { xs: 12, sm: 8 }
                     }}
                     tabs={[
                       {

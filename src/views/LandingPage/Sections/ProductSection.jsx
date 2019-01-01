@@ -18,16 +18,16 @@ class ProductSection extends React.Component {
     const { classes } = this.props;
     return (
       <div className={classes.section}>
-        <GridContainer justify="center">
+          <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>A CONSISTENT NEW TESTAMENT</h2>
+            <h2 className={classes.title}></h2>
             <h5 className={classes.description}>
-              This is the only translation that I have ever seen or heard of in which the translator, Ralph Mount, made a dictionary and card file of each Greek word in the New Testament before he made the translation.  There are 4,839 words in the Greek New Testament.  2,389 of these words only appear two times or less.  This work was the result of a lifetime of study and work by Ralph H. Mount, now with the Lord.  If you are a student of the Word, you will see the benefit of this tremendous work.
+
             </h5>
           </GridItem>
         </GridContainer>
         <div>
-      {/* <GridContainer>
+       <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Free Chat"
@@ -55,7 +55,7 @@ class ProductSection extends React.Component {
                 vertical
               />
             </GridItem>
-          </GridContainer> */}
+          </GridContainer>
         </div>
       </div>
     );

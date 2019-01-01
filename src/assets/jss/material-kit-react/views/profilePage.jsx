@@ -14,10 +14,11 @@ const profilePageStyle = {
     }
   },
   description: {
+    color: "#FFFFFF !important",
     margin: "1.071rem auto 0",
     maxWidth: "600px",
-    color: "#999",
-    textAlign: "center !important"
+    zIndex: "3 !important"
+
   },
   name: {
     marginTop: "-80px"
@@ -36,12 +37,13 @@ const profilePageStyle = {
   },
   title: {
     ...title,
-    display: "inline-block",
-    textAlign: "center !important",
+    color: "#FFFFFF",
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    textDecoration: "none"
+    textDecoration: "none",
+    zIndex: "3"
+
   },
   socials: {
     marginTop: "0",

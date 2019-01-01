@@ -59,7 +59,12 @@ const navPillsStyle = theme => ({
     margin: "15px 0"
   },
   horizontalPills: {
-    width: "44%",
+    [theme.breakpoints.up("sm")]: {
+      width: "44%"
+    },
+    [theme.breakpoints.down("xs")]: {
+      width: "24%"
+    },
     float: "left !important",
     "& + button": {
       margin: "10px 0"

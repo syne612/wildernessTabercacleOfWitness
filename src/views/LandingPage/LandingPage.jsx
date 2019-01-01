@@ -41,18 +41,15 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/bg4.jpg")}>
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <GridItem xs={12} sm={12} md={9}>
+                <h1 className={classes.title}>A CONSISTENT NEW TESTAMENT</h1>
                 <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
+                  This is the only translation that I have ever seen or heard of in which the translator, Ralph Mount, made a dictionary and card file of each Greek word in the New Testament before he made the translation.  There are 4,839 words in the Greek New Testament.  2,389 of these words only appear two times or less.  This work was the result of a lifetime of study and work by Ralph H. Mount, now with the Lord.  If you are a student of the Word, you will see the benefit of this tremendous work.
                 </h4>
-                <br />
+                {/*<br />
                 <Button
                   color="danger"
                   size="lg"
@@ -61,14 +58,13 @@ class LandingPage extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <i className="fas fa-play" />Watch video
-                </Button>
+                </Button>*/}
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <ProductSection />
             <TeamSection />
           </div>
         </div>
