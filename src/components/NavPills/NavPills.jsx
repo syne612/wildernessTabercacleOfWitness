@@ -104,14 +104,10 @@ class NavPills extends React.Component {
       </GridContainer>
     ) : (
       <div>
-      <GridContainer>
-        <GridItem xs={12}>
           {tabButtons}
-        </GridItem>
-        <GridItem xs={12}>
+
           {tabContent}
-        </GridItem>
-      </GridContainer>
+
       </div>
     );
   }
@@ -119,7 +115,7 @@ class NavPills extends React.Component {
 
 NavPills.defaultProps = {
   active: 0,
-  color: "primary"
+  color: "info"
 };
 
 NavPills.propTypes = {

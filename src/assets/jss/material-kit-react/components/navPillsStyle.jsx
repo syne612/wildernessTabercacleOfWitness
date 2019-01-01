@@ -15,7 +15,7 @@ const navPillsStyle = theme => ({
     overflow: "visible !important"
   },
   flexContainer: {
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.up("xs")]: {
       display: "flex",
       flexWrap: "wrap"
     }
@@ -27,8 +27,13 @@ const navPillsStyle = theme => ({
     overflowX: "visible"
   },
   horizontalDisplay: {
-    display: "block"
-  },
+    [theme.breakpoints.up("sm")]: {
+      display: "flex",
+      flexWrap: "wrap"
+    },
+    width: "100%",
+
+    },
   pills: {
     float: "left",
     position: "relative",
@@ -54,8 +59,8 @@ const navPillsStyle = theme => ({
     margin: "15px 0"
   },
   horizontalPills: {
-    width: "100%",
-    float: "none !important",
+    width: "44%",
+    float: "left !important",
     "& + button": {
       margin: "10px 0"
     }

@@ -64,11 +64,14 @@ class ProfilePage extends React.Component {
                   Not all stories told are told correctly. Here are some "FAQ's" and stories commonly mistold.
                 </h5>
               <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={12} lg={10} className={classes.navWrapper}>
+                <GridItem xs={12} sm={12} md={12} lg={12} className={classes.navWrapper}>
                   <NavPills
                     alignCenter
-                    color="primary"
-
+                    color="info"
+                    horizontal={{
+                      tabsGrid: { xs: 4, md: 4 },
+                      contentGrid: { xs: 8, md: 8 }
+                    }}
                     tabs={[
                       {
                         tabButton: "When was Jesus Born?",
