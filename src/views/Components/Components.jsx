@@ -19,7 +19,7 @@ import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
-
+import lawProphesied from "assets/Stories/AAATheLawProphesied.pdf";
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -45,9 +45,16 @@ class Components extends React.Component {
                 <div className={classes.brand}>
                   <h1 className={classes.title}>The Wilderness Tabernacle of Witness</h1>
                   <h4 className={classes.subtitle}>
-                  This site is dedicated to the memory of  Phill Simpson and Ralph  Mount, both very dear friends, servants of the Lord, and supporters of Israel.
-
+                  This site is dedicated to the memory of  Phill Simpson and Ralph Mount, both very dear friends, servants of the Lord, and supporters of Israel.
                   </h4>
+                  <h5> Click the download button to download a copy of "The Law Prophesied" by Ralph Mount.</h5>
+                  <Button
+                    color="info"
+                    size="lg"
+                    href={lawProphesied}
+                  >
+                  <i className="fas fa-download" /> Download
+                  </Button>
                 </div>
               </GridItem>
             </GridContainer>
