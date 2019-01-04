@@ -51,7 +51,7 @@ class GalleryPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/bg4.jpg")} />
+        <Parallax small filter image={require("assets/img/oldromanianbible.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
           <br />

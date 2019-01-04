@@ -21,11 +21,13 @@ import SectionCarousel from "./Sections/SectionCarousel.jsx";
 
 import profile from "assets/img/Ellis.jpg";
 
-import Resume from "assets/img/Ellis-Hogan.jpg";
-import FCC1 from "assets/img/FCC1.png";
-import FCC2 from "assets/img/FCC2.png";
-import FCC3 from "assets/img/FCC3.png";
-import FCC4 from "assets/img/FCC4.png";
+import creation from "assets/Stories/yearsFromCreation.xls";
+import hFordIsrael from "assets/Stories/henryFordAndIsrael.png";
+import iBMHolocaust from "assets/Stories/IBMAndTheHolocaust.png";
+import beast from "assets/Stories/markOfTheBeast.jpg";
+import turin from "assets/Stories/shroudOfTurin.jpg";
+import love from "assets/Stories/Love.doc";
+
 import List from "@material-ui/icons/List";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
@@ -1032,45 +1034,45 @@ class ProfilePage extends React.Component {
                             <p>
                             Two Robbers (lēstēs) Reproach Jesus
                             MATT.27v38 Then two robbers are-being-crucified together-with him, one out-of rights and one out-of lefts.
-
+<br />
                             MATT.27v39 But the (ones) proceeding-along were-blaspheming  him moving their heads
-
+<br />
                             MATT.27v40 And saying:  The (one) overthrowing the sanctuary and building-up in three days, you-save-yourself, if you-are son of-the God, and you-descend from the cross.
 
 
-
+<br />
                            Two Robbers (lēstēs) Reproach Jesus
-
+<br />
                             MARK15v27 And together-with him they-are-crucifying two robbers, one out-of right[s] and one out-of left[s] of-him.
-
+<br />
                             MARK15v28 And the scripture was-fulfilled, the (one) saying:  And he-was-figured with lawless (ones).
-
+<br />
                             MARK15v29 And the (ones) proceeding-along were-blaspheming him moving their heads and saying: Aha the (one) overthrowing the sanctuary and in three days building-up.
-
+<br />
                             MARK15v30 You-save yourself, and you-descend from the cross.
 
 
-
+<br />
                            Two Criminals (kakourgos)  One Asked Jesus For The Kingdom
-
+<br />
                             LUKE23v39 But one of-the criminals having-been-hanged was-blaspheming him, saying:  If you yourself-are the Messiah, you-save yourself and us.
-
+<br />
                             LUKE23v40 But the different (one) having-answered was-rebuking him, saying:  But (are) you yourself not fearing-for-yourself the God, because you-are in the same sentence?
-
+<br />
                             LUKE23v41 And we on-the-one-hand justly; for we-are-taking-back worthy-(things) of-what-(things) we-practised; on-the-other-hand this (one) practised not-one-thing out-of-place.
-
+<br />
                             LUKE23v42 And he-was-saying to-the Jesus: You-be-made-mindful of-me Lord, at-the-time-that you-might-come in to-your kingdom.
-
+<br />
                             LUKE23v43 And the Jesus said to-him: Amen I-am saying to-you, today you-will-be with me in the paradise.
 
 
-
+<br />
                            Two Hence and Hence
-
+<br />
                            JOHN19v18 Where-in-which they-crucified him, and with him others two hence and hence, but (in) midst the Jesus.
 
 
-
+<br />
                            There were two robbers and two criminals.  The Holy Spirit did not use two
 
                            different Greek words for no reason.  His word does not lie!
@@ -1088,30 +1090,30 @@ class ProfilePage extends React.Component {
                             Pilate could fine no fault with Jesus (John 18:38, Luke 23:4) and when he found that Jesus was not in his jurisdiction he sent Him to Herod (Luke 23:7).  Herod asked Jesus many questions but Jesus would not answer him so Herod and his soldiers mocked Him as King of the Jews.
 
 
-
+<br />
               Luke 23:11 “But the Herod together-with his armies having-treated him with-contempt, and having-mocked him, having-cast around him a brillant white esthes  robe he-sent him back to-the Pilate.”
 
-
+<br />
 
               Pilate was becoming very concerned about crowd control by this time because it was Passover and there were probably over one million Jews in Jerusalem and he had only approximately 4,000 soldiers.  He really wanted to free Jesus because it was the custom during this time of the year to release a prisoner but the crowd wanted Barabbas, a convicted murder.  Jesus was whipped and scourged several times and Pilate hoped this would be sufficient and he could release Jesus but the crowd wanted Him crucified.
 
-
+<br />
 
               John 19:1-3 “Then therefore the Pilate took the Jesus and he whipped him.  And the soldiers having-plaited a crown out-of-thorn-plants they-put it upon his head, and they-cast-around him a purple garment (Himation, a royal garment).  And they-said, Hail, the King of-the Jews; and they-were giving slaps to-him.”
 
-
+<br />
 
               Pilate was still trying to free Jesus but the crowd wanted Him crucified. Pilate gives in to the crowd.  Matthew 27:24-26 “but the Pilate having-seen that he-is-profiting not-one-thing, BUT rather a tumult is-coming-to-pass, having-taken water he-washed-off-for-himself the hands over-against the crowd saying, I-am innocent from the blood of-this just-one; YOU yourself-will-see.  And having-answered all the people said, His blood upon us and upon our children.  Then he-released to-them the Barabbas, but having-lashed the Jesus he-gave him over in-order-that he might-be-crucified.”
 
-
+<br />
 
               Matthew 27:28  “And having-stripped him they-placed-around to-him a scarlet chlamus.   They mocked Him as King of the Jews.  They spit on Him and hit Him.  Then they stripped Him of the scarlet chlamus.
 
-
+<br />
 
               Matthew 27:31 “And then they-mocked him they-stripped off him the chlamus, and they-clothed him in his garments; and they-led him away into to-be crudified.”
 
-
+<br />
 
               Scripture does not tell us what color garments Jesus wore when He walked the earth but I personally believe that from what we know about the Tabernacle and High Priest colors it was a blue garment which would point to His deity.
                             </p>
@@ -1126,19 +1128,13 @@ class ProfilePage extends React.Component {
                             <h3>"Tongue", "Language" - glossary</h3>
                             <p>
                             Webster’s Dictionary
-
+<br />
                             Glos.so.la.li.a – An ecstatic or apparently ecstatic utterance of unintelligible speechlike sounds, viewed by some as a manifestation of deep religious experience.
-
-
-
+<br />
                             The Greek word glvssa  “glossa” means both “tongue” and “language”; as is also true in English, tongue can mean the organ or the language.
-
-
-
+<br />
                             The Bible makes it clear when it should be “tongue” and when it should be “language”.  Whenever glvssa  (glossa) is in the Greek text with the article [the], it should always be translated “the tongue” or “the tongues”.  Further; whenever glvssa (glossa) is in the singular with the word pas, (pas) [“all’ or “every”], it too is “tongue”.  All other cased, glvssa (glossa) should be “language”.
-
-
-
+<br />
                             The King James translates glvssa (glossa) tongues fifty (50) times all tongues with no differentiation between tongues and languages.
                             </p>
                           </div>
@@ -1150,7 +1146,24 @@ class ProfilePage extends React.Component {
                         tabContent: (
                           <div>
                             <h3>Total Years From Creation to Jesus</h3>
-                            <p></p>
+                            <br />
+                            <Button
+                              color="info"
+                              size="lg"
+                              href={creation}
+                            >
+                              <i className="fas fa-file" /> View Chart
+                            </Button>
+                          </div>
+
+                        )
+                      },
+                      {
+                        tabButton: "Mark of The Beast",
+                        tabContent: (
+                          <div>
+                            <h3>The Shroud of Turin</h3>
+                            <img src={beast} />
                           </div>
 
                         )
@@ -1160,7 +1173,7 @@ class ProfilePage extends React.Component {
                         tabContent: (
                           <div>
                             <h3>The Shroud of Turin</h3>
-                            <p></p>
+                            <img src={turin} />
                           </div>
 
                         )
@@ -1452,7 +1465,7 @@ class ProfilePage extends React.Component {
                         tabContent: (
                           <div>
                             <h3>IBM and the Holocaust</h3>
-                            <p></p>
+                            <img src={iBMHolocaust} />
                           </div>
 
                         )
@@ -1462,7 +1475,7 @@ class ProfilePage extends React.Component {
                         tabContent: (
                           <div>
                             <h3>Henry Ford and Israel</h3>
-                            <p></p>
+                            <img src={hFordIsrael} />
                           </div>
 
                         )
@@ -1496,8 +1509,15 @@ class ProfilePage extends React.Component {
                         tabContent: (
                           <div>
                             <h3>Love - Agape/Philo</h3>
-                            <p></p>
-                          </div>
+                            <p>Love is one of the most difficult of words to understand. In speaking we might say we love father, mother, wife, husband, children, girlfriend, boyfriend, school, house, dog, cat, or food; and all of these uses, use love in a different way.  The Greek New Testament uses different words to show love for different people and things.  The English translations of the Bible have made a mess of the subject.</p>
+                            <Button
+                              color="info"
+                              size="lg"
+                              href={love}
+                            >
+                              <i className="fas fa-file" /> More Info
+                            </Button>
+                         </div>
 
                         )
                       },
