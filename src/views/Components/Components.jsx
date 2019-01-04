@@ -47,7 +47,7 @@ class Components extends React.Component {
                   <h4 className={classes.subtitle}>
                   This site is dedicated to the memory of  Phill Simpson and Ralph Mount, both very dear friends, servants of the Lord, and supporters of Israel.
                   </h4>
-                  <h5> Click the download button to download a copy of "The Law Prophesied" by Ralph Mount.</h5>
+                  <h4> Click the download button to download a copy of "The Law Prophesied" by Ralph Mount.</h4>
                   <Button
                     color="info"
                     size="lg"
