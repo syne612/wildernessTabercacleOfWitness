@@ -14,6 +14,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import lawProphesied from "assets/Stories/AAATheLawProphesied.pdf";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
@@ -65,6 +66,29 @@ class LandingPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
+
+          <GridContainer justify="center" >
+            <GridItem xs={6} sm={12}>
+              <br />
+            </GridItem>
+            <GridItem xs={6} sm={12}>
+              <br />
+            </GridItem>
+
+            <GridItem xs={12} sm={6} md={9}>
+              <h4 className={classes.description}> Click the download button to download a copy of "The Law Prophesied" by Ralph Mount.</h4>
+            </GridItem>
+            <GridItem xs={10} sm={6} md={3}>
+                  <Button
+                    color="info"
+                    size="lg"
+                    href={lawProphesied}
+                  >
+                    <i className="fas fa-download" /> Download
+                  </Button>
+                </GridItem>
+              </GridContainer>
+
             <TeamSection />
           </div>
         </div>
